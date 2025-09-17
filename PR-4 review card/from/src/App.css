@@ -1,0 +1,126 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #e6e9f0);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+/* Review Card */
+.review-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 25px;
+    width: 320px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.review-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #f4b400;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Stars */
+.stars {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Review Text */
+.review-text {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 18px;
+    min-height: 60px;
+    line-height: 1.5;
+}
+
+/* Title & Name */
+.review-card h3 {
+    margin: 6px 0;
+    font-size: 19px;
+    color: #222;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+/* Priority & Members */
+.priority,
+.members {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+    padding: 4px 10px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Buttons */
+.card-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card-actions button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.card-actions button:first-child {
+    background: #ff4d4d;
+    color: #fff;
+}
+
+.card-actions button:first-child:hover {
+    background: #cc0000;
+}
+
+.card-actions button:last-child {
+    background: #007bff;
+    color: #fff;
+}
+
+.card-actions button:last-child:hover {
+    background: #0056b3;
+}
