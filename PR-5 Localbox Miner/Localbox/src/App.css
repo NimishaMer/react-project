@@ -1,0 +1,135 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding-left: 110px;
+
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-box {
+  width: 50%;
+  padding: 20px;
+}
+
+.contact-box h2 {
+  margin-bottom: 10px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box input,
+.contact-box textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-box button {
+  padding: 10px;
+  border: none;
+  background: #004c9e;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background: #0056b3;
+}
+
+.contact-image img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #004c9e;
+  color: white;
+  padding: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.edit-btn {
+  background: linear-gradient(135deg, #ff9800, #ffb74d);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.edit-btn:hover {
+  background: linear-gradient(135deg, #fb8c00, #ffa726);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #e53935, #ef5350);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.delete-btn:hover {
+  background: linear-gradient(135deg, #c62828, #e53935);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
